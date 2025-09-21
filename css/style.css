@@ -24,12 +24,14 @@ body {
     background-color: var(--primary-bg);
     color: var(--primary-text);
     max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: 12px solid var(--secondary-text);
 }
 
-.mobile-border {
-    border: 12px solid var(--secondary-text);
-    min-height: 100vh;
-    box-sizing: border-box;
+main {
+    flex: 1;
 }
 
 header {
@@ -137,7 +139,6 @@ a {
 
 footer {
     text-align: center;
-    margin-top: 60px;
     padding: 20px;
     color: var(--secondary-text);
     font-size: 0.9rem;
