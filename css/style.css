@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'StolzlFonts';
-    src: url('fonts/Stolzl/stolzl_bold.otf') format('opentype');
+    src: url('../fonts/Stolzl/stolzl_bold.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
